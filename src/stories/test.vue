@@ -4,7 +4,7 @@
   <ul class="news__list">
     <li class="news__item-sub">
       <a href="">
-        <div class="badge__today--open">추천</div>
+        <div class="badge__today--open">추천a</div>
         <div class="news__img"><img src="//img.danawa.com/new/noData/img/nolmg_320x240.jpg" alt="alt값 비워주세요"></div>
         <div class="news__contents">
           <div class="news__title"><strong class="category">[일반뉴스]</strong>{{itemTitle}}</div>
@@ -93,6 +93,6 @@ export default {
       };
     },
   },
-  
+
 };
 </script>
