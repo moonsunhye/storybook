@@ -11,7 +11,7 @@ export default {
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   components: { MyTest },
-  template: '<my-test @onClick="onClick" v-bind="$props" />',
+  template: '<my-test v-bind="$props" />',
 });
 
 export const Defualt = Template.bind({});
