@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import './pagination.css'
 
 export default {
   name: 'pagination',
