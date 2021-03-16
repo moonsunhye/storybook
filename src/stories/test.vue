@@ -62,6 +62,7 @@
 </template>
 
 <script>
+import 'E:/gitRepo/static/css/brandlog.front.css';
 
 export default {
   name: 'my-test',
