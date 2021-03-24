@@ -3,7 +3,10 @@ import MyPagination from './Pagination.vue'
 export default {
   title: 'Example/Pagination',
   component: MyPagination,
-  argTypes: {}
+  argTypes: {
+    perPage: { control: { type: 'range', min: 1, max: 10 } },
+    currentPage: { control: { type: 'number', min: 1, max: 10 } }
+  }
 }
 
 const Template = (args, { argTypes }) => ({
